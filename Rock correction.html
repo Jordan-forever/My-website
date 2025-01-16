@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Rock Paper Scissors</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(to right, Blue, Red);
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            text-align: center;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Rock Paper Scissors</h1>
+        <br>
+        <h2>Computer choice: <span id="computer-choice"></span></h2> 
+        <h2>Your choice: <span id="user-choice"></span></h2>
+        <h2>Result: <span id="result"></span></h2>
+
+        <button id="rock">Rock</button>
+        <button id="paper">Paper</button>
+        <button id="scissors">Scissors</button>
+
+        <script src="app.js" charset="utf-8"></script>
+        <p>&copy;2025 By Jordan</p>
+    </div>
+</body>
+</html>
